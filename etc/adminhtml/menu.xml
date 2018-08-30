@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="WilliamsCommerce_OrderBy::orderby" title="Order Created By" module="WilliamsCommerce_OrderBy" sortOrder="51" parent="Magento_Sales::sales" resource="WilliamsCommerce_OrderBy::orderby"/>
+        <add id="WilliamsCommerce_OrderBy::addby" title="Manage Order Created By List" module="WilliamsCommerce_OrderBy" sortOrder="10" action="orderbylist/order/index" resource="WilliamsCommerce_OrderBy::addby" parent="WilliamsCommerce_OrderBy::orderby"/>
+    </menu>
+</config>
